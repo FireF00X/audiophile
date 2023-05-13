@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- normalize file -->
+    <link rel="stylesheet" href="./css/normalize.css">
+    <!-- css file -->
+    <link rel="stylesheet" href="./css/check.css">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>audiophile</title>
+</head>
+
+
+<body>
+    <!-- start navbar -->
+    <nav>
+        <div class="container flex-center">
+            <div class="logo">
+                <h1>audiophile</h1>
+            </div>
+            <i style="cursor:pointer" class=" bars fa-solid fa-bars "></i>
+            <ul class="links flex-center">
+                <li><a href="./index.html">home</a></li>
+                <li><a href="./all.html">headphone</a></li>
+                <li><a href="./all.html">speakers</a></li>
+                <li><a href="./all.html">earphones</a></li>
+            </ul>
+            <div class="cart">
+                <a href="./check.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                <span id="notify">0</span>
+            </div>
+        </div>
+    </nav>
+    <!-- end navbar -->
+    <div class="back-btn">
+        <div class="container">
+            <a href="./details.html" id="back"><i class="fa-solid fa-chevron-left"></i> Go Back</a>
+        </div>
+    </div>
+    <!-- start page -->
+    <section class="page">
+        <div class="container">
+            <section class="check">
+                <h1>CHECKOUT</h1>
+                <!-- billing details -->
+                <div class="bill">
+                    <h4>billing details</h4>
+                    <div class="inputs">
+                        <div class="input">
+                            <label for="name">Name</label>
+                            <input id="name" type="text" placeholder="Ahmed Mohamed">
+                        </div>
+                        <div class="input">
+                            <label for="email">Email Address</label>
+                            <input id="email" type="email" placeholder="Black-Skull@sn.org">
+                        </div>
+                        <div class="input">
+                            <label for="phone">Phone Number</label>
+                            <input id="phone" type="number" placeholder="+20-1*******">
+                        </div>
+                    </div>
+                </div>
+                <!-- shipping info -->
+                <div class="shipping">
+                    <h4>Shipping info</h4>
+                    <div class="inputs">
+                        <div class="input">
+                            <label for="address">Address</label>
+                            <input id="name" type="text" placeholder="1137 William Avenue">
+                        </div>
+                        <div class="input">
+                            <label for="code">ZipCode</label>
+                            <input id="code" type="number" placeholder="10001">
+                        </div>
+                        <div class="input">
+                            <label for="city">City</label>
+                            <input id="city" type="text" placeholder="New York">
+                        </div>
+                        <div class="input">
+                            <label for="country">Country</label>
+                            <input id="country" type="text" placeholder="U.S">
+                        </div>
+                    </div>
+                </div>
+                <!-- payment details -->
+                <div class="payment">
+                    <h4>payment details</h4>
+                    <div class="inputs">
+                        <div class="input">
+                            <label for="pay">Payment Method</label>
+                            <div class="money">
+                                <input id="pay" type="radio" name="payment" value="e-Money">
+                                <label for="pay">e-Money</label>
+                            </div>
+                            <div class="money">
+                                <input id="bro" type="radio" name="payment" value="Cash On Delivery">
+                                <label for="bro">Cash On Delivery</label>
+                            </div>
+                        </div>
+                        <div class="input">
+                            <label for="money-num">e-Money Number</label>
+                            <input id="money-num" type="number" placeholder="238521993">
+                        </div>
+                        <div class="input">
+                            <label for="money-bin">e-Money BIN</label>
+                            <input id="money-bin" type="number" placeholder="6891">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="summary">
+                <h2>Summary</h2>
+                <div class="products">
+                    <div class="product">
+                        <div class="info">
+                            <div class="photo">
+                                <img src="https://www.beatsbydre.com/content/dam/beats/web/product/earbuds/powerbeats-pro/refresh2022/pbpro-pdp-p12.png.large.2x.png"
+                                    alt="">
+                            </div>
+                            <div class="title">
+                                <h4>xx99 MK ii</h4>
+                                <p>$ <span>2.999</span></p>
+                            </div>
+                        </div>
+                        <div class="pieces">X1</div>
+                    </div>
+                    <div class="product">
+                        <div class="info">
+                            <div class="photo">
+                                <img src="./images/headphone1.png" alt="">
+                            </div>
+                            <div class="title">
+                                <h4>SONY WH-1000XM4</h4>
+                                <p>$ <span>349.99</span></p>
+                            </div>
+                        </div>
+                        <div class="pieces">X1</div>
+                    </div>
+                    <div class="product">
+                        <div class="info">
+                            <div class="photo">
+                                <img src="./images/sub.png" alt="">
+                            </div>
+                            <div class="title">
+                                <h4>BOSE SOUNDLINK REVOLVE</h4>
+                                <p>$ <span>199.00</span></p>
+                            </div>
+                        </div>
+                        <div class="pieces">X2</div>
+                    </div>
+                </div>
+                <div class="total">
+                    <div class="total-pieces">
+                        <span class="txt">total</span>
+                        <span class="num">$ <span class="number">2.999</span></span>
+                    </div>
+                    <div class="shipping">
+                        <span class="txt">Shipping</span>
+                        <span class="num">$ <span class="number">50</span></span>
+                    </div>
+                    <div class="vat">
+                        <span class="txt">VAT (included)</span>
+                        <span class="num">$ <span class="number">1.073</span></span>
+                    </div>
+                    <div class="grand-total">
+                        <span class="txt">grand total</span>
+                        <span class="num">$ <span class="number">5.446</span></span>
+                    </div>
+                </div>
+                <button>continue & pay</button>
+            </section>
+        </div>
+    </section>
+    <!-- end page -->
+    <!-- start footer -->
+    <footer>
+        <div class="container flex-center">
+            <div class="title flex-center">
+                <h4>audiophile</h4>
+                <ul class="pages flex-center">
+                    <li><a href="./index.html">home</a></li>
+                    <li><a href="./all.html">headphones</a></li>
+                    <li><a href="./all.html">speakers</a></li>
+                    <li><a href="./all.html">earphones</a></li>
+                </ul>
+            </div>
+            <div class="mid flex-center">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore maxime assumenda quo deleniti vel
+                    esse voluptatibus blanditiis nostrum laboriosam labore temporibus accusantium quia, culpa
+                    impedit
+                    maiores iusto corrupti explicabo velit.</p>
+                <ul class="social flex-center">
+                    <li><a href="#"><i class="fa-brands fa-square-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                </ul>
+            </div>
+            <div class="last">
+                <p class="copy">copyright 2023, all rights reserverd</p>
+            </div>
+        </div>
+    </footer>
+    <script>
+        let bars = document.querySelector('nav .container .bars');
+        bars.addEventListener('click',()=>{
+            bars.classList.toggle('clicked')
+        })
+    </script>
+</body>
+
+</html>

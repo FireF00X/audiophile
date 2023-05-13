@@ -1,0 +1,100 @@
+{
+    "products": [
+        {
+            "id": "11",
+            "type": "speakers",
+            "title": "Amazon Echo Dot (4th Gen)",
+            "photoSrc": "https://ss7.vzw.com/is/image/VerizonWireless/amazon-echo-dot-4th-gen-smart-speaker-w-alexa-w-clock-w-alexa-glacier-white-b07xj8c8f7-iset?$acc-lg$",
+            "description": "Smart speaker with Alexa and improved sound for every room.",
+            "price": "49.99"
+        },
+        {
+            "id": "9",
+            "type": "earphones",
+            "title": "Bose QuietComfort Earbuds",
+            "photoSrc": "https://tradelinestores.s3.amazonaws.com/media/product_images/f7e5091c-78fc-498f-9098-7eb6d91815a9.png",
+            "description": "Noise cancelling earbuds with comfortable eartips and rich, immersive sound.",
+            "price": "279.00"
+        },
+        {
+            "id": "2",
+            "type": "headphones",
+            "title": "Bose QuietComfort 35 II",
+            "photoSrc": "https://store.sony.co.nz/dw/image/v2/ABBC_PRD/on/demandware.static/-/Sites-sony-master-catalog/default/dw72e2d384/images/WH1000XM4S/WH1000XM4S.png",
+            "description": "Noise cancelling headphones with crystal-clear sound and up to 20 hours of battery life.",
+            "price": "299.99"
+        },
+        {
+            "id": "4",
+            "type": "speakers",
+            "title": "Sonos One",
+            "photoSrc": "https://m.media-amazon.com/images/I/51urOKu3IeL._AC_.jpg",
+            "description": "Smart speaker with voice control and great sound for every room.",
+            "price": "199.00"
+        },
+        {
+            "id": "5",
+            "type": "speakers",
+            "title": "JBL Flip 5",
+            "photoSrc": "https://btech.com/cdn-cgi/image/quality=50,format=auto/media/catalog/product/cache/22b1bed05f04d71c4a848d770186c3c4/j/b/jbl_speaker_black.png",
+            "description": "Waterproof portable Bluetooth speaker with up to 12 hours of playtime.",
+            "price": "119.95"
+        },
+        {
+            "id": "6",
+            "type": "speakers",
+            "title": "Bose SoundLink Revolve",
+            "photoSrc": "https://btech.com/cdn-cgi/image/quality=50,format=auto/media/catalog/product/cache/071d5ccae038fcedc91e567360d549bc/8/1/81ipkywwzbl._sy355_.jpg",
+            "description": "Portable Bluetooth speaker with true 360-degree sound and up to 12 hours of battery life.",
+            "price": "199.00"
+        },
+        {
+            "id": "7",
+            "type": "earphones",
+            "title": "Apple AirPods Pro",
+            "photoSrc": "https://static-www.o2.co.uk/sites/default/files/airpods-pro-2nd-gen-sku-header-070922.png",
+            "description": "Active noise cancelling earphones with transparency mode and spatial audio.",
+            "price": "249.00"
+        },
+        {
+            "id": "3",
+            "type": "headphones",
+            "title": "Sennheiser Momentum 3 Wireless",
+            "photoSrc": "https://www.notebookcheck.net/fileadmin/_processed_/c/e/csm_NBC_Sennheiser_Momentum_3_Wireless_8961_586cb12678.jpg",
+            "description": "Premium wireless headphones with exceptional sound quality and active noise cancellation.",
+            "price": "399.95"
+        },
+        {
+            "id": "8",
+            "type": "earphones",
+            "title": "Beats Powerbeats Pro",
+            "photoSrc": "https://www.beatsbydre.com/content/dam/beats/web/product/earbuds/powerbeats-pro/refresh2022/pbpro-pdp-p12.png.large.2x.png",
+            "description": "Wireless earphones with adjustable ear hooks and up to 9 hours of battery life.",
+            "price": "199.95"
+        },
+        {
+            "id": "1",
+            "type": "headphones",
+            "title": "Sony WH-1000XM4",
+            "photoSrc": "https://www.sony.com/image/5d02da5df552836db894cead8a68f5f3?fmt=pjpeg&wid=330&bgcolor=FFFFFF&bgc=FFFFFF",
+            "description": "Industry-leading noise canceling headphones with improved sound quality.",
+            "price": "349.99"
+        },
+        {
+            "id": "10",
+            "type": "headphones",
+            "title": "Beyerdynamic DT 770 PRO",
+            "photoSrc": "https://m.media-amazon.com/images/I/81PmTfLcj1L._AC_UF894,1000_QL80_.jpg",
+            "description": "Professional studio headphones with excellent sound isolation and comfort.",
+            "price": "159.00"
+        },
+        {
+            "id": "12",
+            "type": "earphones",
+            "title": "Jabra Elite 85t",
+            "photoSrc": "https://assets2.jabra.com/a/e/5/4/ae5491d038bb0d9af435783855f907b4d5eff33a_Jabra_elite85t_grey_01.png?w=585&h=585&auto=format",
+            "description": "Advanced noise cancellingand comfortable earbuds with up to 5.5 hours of battery life and a wireless charging case.",
+            "price": "229.99"
+        }
+    ]
+}
